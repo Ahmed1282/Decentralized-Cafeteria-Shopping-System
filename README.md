@@ -28,6 +28,8 @@ To run the Decentralized Cafeteria Shopping System, follow these detailed steps:
 - Install [Truffle](https://www.trufflesuite.com/truffle) for smart contract compilation and deployment.
 
 ### Steps
+
+#### Setting Up the Environment
 1. **Clone the Repository:**
    - Open your terminal.
    - Run the command `git clone https://github.com/Ahmed1282/Decentralized-Cafeteria-Shopping-System.git` to clone the repository.
@@ -38,17 +40,23 @@ To run the Decentralized Cafeteria Shopping System, follow these detailed steps:
 3. **Install Dependencies:**
    - In the project directory, run `npm install` to install all the required dependencies.
 
+#### Running the Blockchain and Migrations
 4. **Open Ganache:**
    - Launch Ganache to create your personal Ethereum blockchain.
 
-5. **Truffle Migrate:**
-   - In your terminal, ensure you are still in the project directory.
+5. **Migrate Contracts:**
+   - Open a new terminal window (do not close the previous one).
+   - Ensure you are in the root directory of the project (not inside `client`).
    - Run the command `truffle migrate` to deploy your contracts to the blockchain.
 
-6. **Start the Application:**
-   - Run `npm start` to start the application.
+#### Running the Client Application
+6. **Navigate to Client Directory:**
+   - In the first terminal, navigate to the client directory with `cd client`.
 
-7. **Access the Application:**
+7. **Start the Client Application:**
+   - Run `npm start` to start the client-side application.
+
+8. **Access the Application:**
    - Open your browser and go to `localhost:3000` to interact with the application.
 
 ## Additional Information
@@ -58,5 +66,4 @@ To run the Decentralized Cafeteria Shopping System, follow these detailed steps:
 
 ## Troubleshooting
 
-- If you encounter any issues, make sure all prerequisites are correctly installed and your Ganache instance is running.
-
+- If you encounter any issues, make sure all prerequisites are correctly installed, your Ganache instance is running, and you are using two separate terminals as instructed.
