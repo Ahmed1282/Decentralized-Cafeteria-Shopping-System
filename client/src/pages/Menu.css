@@ -1,0 +1,193 @@
+/* Menu Container */
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Menu Title */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Menu Items Container */
+.menuItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Menu Item */
+.menuItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Item Name */
+.menuItem span:first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Item Price */
+.menuItem span:nth-child(2) {
+  font-size: 16px;
+}
+
+/* Item Discount and Validity */
+.menuItem span:nth-child(3),
+.menuItem span:nth-child(4) {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Button Styles */
+.menuItem button, .popup-inner button, .orderDetails button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Active Button Style */
+.btn-active {
+  background-color: #007bff;
+}
+
+.btn-active:hover {
+  background-color: #0056b3;
+}
+
+/* Disabled Button Style */
+.btn-disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Selected Items Container */
+.selectedItems {
+  margin-top: 20px;
+  width: 80%;
+}
+
+/* Selected Item List */
+.selectedItems ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Selected Item */
+.selectedItems li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Quantity Indicator */
+.selectedItems li::before {
+  content: 'x';
+  margin-right: 3px;
+  color: #007bff;
+}
+
+/* Order Details Container */
+.orderDetails {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+/* Order Details Heading */
+.orderDetails h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Order Details Text */
+.orderDetails p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Order Items List */
+.orderDetails ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Popup Container */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Popup Inner Container */
+.popup-inner {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Popup Heading */
+.popup-inner h3 {
+  margin-top: 0;
+}
+
+/* Popup Button */
+.popup-inner button {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+/* Order Item */
+.orderDetails li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+
+/* Smaller and More Presentable Remove Button */
+.selectedItems button {
+  padding: 3px 6px; /* Smaller padding */
+  font-size: 12px; /* Smaller font size */
+  background-color: #ff4d4d; /* Red background for distinction */
+  color: white; /* White text */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #ff3333; /* Slightly darker border for depth */
+  margin-left: 10px; /* Space from the item text */
+}
+
+.selectedItems button:hover {
+  background-color: #ff3333; /* Darker shade on hover */
+}
+
+
+/* General Button Style */
+.menuItem button, .popup-inner button, .orderDetails button {
+  /* existing styles */
+  cursor: pointer; /* Ensures cursor is pointer when button is enabled */
+}
+
+/* Disabled Button Style */
+.btn-disabled, .menuItem button:disabled {
+  /* existing styles */
+  cursor: not-allowed; /* Changes cursor to not-allowed when button is disabled */
+}

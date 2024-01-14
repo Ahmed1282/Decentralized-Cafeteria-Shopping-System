@@ -1,0 +1,43 @@
+.account-container {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+}
+
+.balance-info {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.orders-list {
+  margin-top: 20px;
+}
+
+.order {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order h3 {
+  margin-top: 0;
+}
+
+.order-items {
+  margin-top: 10px;
+}
+
+.order-item {
+  background-color: #eaeaea;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}

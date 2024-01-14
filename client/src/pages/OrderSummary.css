@@ -1,0 +1,30 @@
+.order-summary-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .order-item {
+    margin: 10px 0;
+  }
+  
+  .total {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .payment-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .payment-btn:hover {
+    background-color: #45a049;
+  }
+  

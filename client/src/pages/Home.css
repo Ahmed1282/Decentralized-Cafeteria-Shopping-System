@@ -1,0 +1,38 @@
+.homepage-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.navigation {
+  margin-top: 30px;
+  margin-bottom: 20px; /* Added to give space below the navigation */
+}
+
+.nav-link {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #45a049;
+}
+
+.change-account-button {
+  margin-top: 20px; /* Space above the button */
+  padding: 10px 20px; /* Padding to make the button larger */
+  background-color: #008CBA; /* Different color for distinction */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.change-account-button:hover {
+  background-color: #007B9E;
+}
