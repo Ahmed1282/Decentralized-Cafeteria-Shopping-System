@@ -1,7 +1,7 @@
-# Decentralized FAST Cafeteria Shopping System
+# Decentralized Cafeteria Shopping System
 
 ## Introduction
-Welcome to the Decentralized FAST Cafeteria Shopping System, a pioneering DAPP (Decentralized Application) tailored for the FAST University community. This project, an initiative by the CS-4049 Blockchain and Cryptocurrency class, strives to transform cafeteria interactions, utilizing blockchain for efficient meal ordering, secure transactions, and a rewarding system.
+Welcome to the Decentralized Cafeteria Shopping System, a pioneering DAPP (Decentralized Application). This project strives to transform cafeteria interactions, utilizing blockchain for efficient meal ordering, secure transactions, and a rewarding system.
 
 ## Project Overview
 Our system connects university management, cafeteria staff, and users in a seamless, blockchain-powered environment. It enhances the cafeteria experience through efficient order processing, cryptocurrency payments, and a loyalty program.
